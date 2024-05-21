@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color-light: rgba(226, 241, 253, 0.651); 
+}
+
+body{
+    background-color:  var(--bg-color-light)!important;
+}
+
+.hero-image {
+    width: auto;
+    max-height: 80%;
+}
+
+.second-section  .item-cards{
+    background-color: var(--bg-color-light) !important;
+}
+
+.second-section img {
+    width: auto;
+    max-height: 200px;
+}
+
+.third-section img {
+    height: 500px;
+    width: auto;
+}
+
+.fourth-section img {
+    height: 600px;
+    width: auto;
+}
+
+.fifth-section .playstore-icon {
+    width: auto;
+    height: 50px;
+}
+
+.fifth-section .appstore-icon {
+    width: auto;
+    height: 32px;
+}
