@@ -1,3 +1,6 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +9,32 @@
 
 :root{
     --bg-color-light: rgba(226, 241, 253, 0.651); 
+    --para-font: "Dosis", sans-serif;
+    --heading-font: "Dosis", sans-serif;
 }
 
 body{
     background-color:  var(--bg-color-light)!important;
+    font-family: var(--para-font);
+}
+
+a{
+    font-family: var(--para-font);
+}
+
+p{
+    line-height: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+}
+
+header a:hover{
+    background-color: rgba(0, 0, 0, 0.24);
+    border: 1px solid inherit;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .hero-image {
@@ -24,6 +49,10 @@ body{
 .second-section img {
     width: auto;
     max-height: 200px;
+}
+
+.second-section .food-item-2 img{
+    max-height: 215px;
 }
 
 .third-section img {
