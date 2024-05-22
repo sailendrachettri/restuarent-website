@@ -15,192 +15,206 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body class="container my-4 p-4 rounded-5 shadow">
-    <!-- NAVIGATION BAR -->
-    <header>
-        <nav class="d-flex justify-content-between">
-            <div>
-                <h1 class="h1"> Restaurant </h1>
-                <p class="h5 text-muted">Get the world's best teast</p>
-            </div>
+<body>
+    <div class="container my-4 p-4 rounded-5 shadow">
+        <!-- NAVIGATION BAR -->
+        <header>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <h1 class="h1">Restaurant</h1>
+                        <p class="h5 text-muted">Get the world's best teast</p>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/login.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/signup.html">Signup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><span
+                                        class="material-symbols-outlined text-primary">shopping_cart</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-            <div class="d-flex me-4">
+        <!-- MAIN CONTENT OF THE PAGE -->
+        <main>
+            <section class="row first-section">
+                <div class="col-md-6 mt-4">
+                    <h1 class="mt-4">Delicious Food is Wating for You</h1>
+                    <a href="./pages/menu.html">
+                        <button class="btn btn-dark mt-5 rounded-start">View More &#x279E;</button>
+                    </a>
+                    <div class="mt-5">
+                        <span class="material-symbols-outlined me-2 h1 border rounded px-2 text-muted">
+                            lunch_dining
+                        </span>
+                        <span class="material-symbols-outlined me-2 h1 border rounded px-2 text-muted">
+                            sports_bar
+                        </span>
+                        <span class="material-symbols-outlined me-2 h1 border rounded px-2 text-muted">
+                            liquor
+                        </span>
+                        <span class="material-symbols-outlined me-2 h1 border rounded px-2 text-muted">
+                            restaurant
+                        </span>
+                        <span class="material-symbols-outlined me-2 h1 border rounded px-2 text-muted">
+                            local_cafe
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="./assets//dishes/dish_3.png" class="img-fluid hero-image" alt="Soupe image right side">
+                </div>
+            </section>
+
+            <section class="row second-section">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="food-item-1 item-cards text-center shadow p-3 bg-body rounded">
+                                <img src="./assets/dishes/dish_8.png" class="img-fluid" alt="Food image">
+                                <div class="d-flex flex-column">
+                                    <h4>Burger Spicy </h4>
+                                    <p>Spicy with Veggies</p>
+                                    <p>$925.89</p>
+                                    <div class="d-flex justify-content-evenly">
+                                        <span class="material-symbols-outlined">
+                                            shopping_cart
+                                        </span>
+                                        <span class="material-symbols-outlined">
+                                            favorite
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="food-item-2 item-cards text-center shadow p-3 bg-body rounded">
+                                <img src="./assets/dishes/dish_10.png" class="img-fluid" alt="Food image">
+                                <div class="d-flex flex-column">
+                                    <h4>California-style Pizza</h4>
+                                    <p>Non Spicy with Toppings</p>
+                                    <p>$12.50</p>
+                                    <div class="d-flex justify-content-evenly">
+                                        <span class="material-symbols-outlined">
+                                            shopping_cart
+                                        </span>
+                                        <span class="material-symbols-outlined">
+                                            favorite
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 text-start ms-5">
+                    <h2>We have Delicious Food</h2>
+                    <h2>Teasty Food in Town</h2>
+                    <p class="mt-4">In our town, culinary wonders abound, promising flavor-filled adventures at every
+                        turn.
+                        From quaint cafes to lively eateries, the air is alive with the scent of delectable creations.
+                        With
+                        "Delicious Food" and "Tasty Food" as our creed, every bite is a delightful journey of taste.</p>
+                </div>
+            </section>
+
+            <section class="row mt-5 third-section">
+                <div class="col-md-6 mt-5">
+                    <h1 class="h1">It takes only 25 minutes to deliver your food order</h1>
+                    <p class="mt-4">Delicious Food is Waiting For you - It takes only 25 minutes to deliver your food
+                        order.
+                        Order now and satisfy your cravings in no time with our swift delivery service.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./assets/dishes/dish_1.png" class="img-fluid" alt="One food image with price tag">
+                </div>
+            </section>
+
+            <section class="row mt-5 fourth-section">
+                <div class="col-md-6">
+                    <img src="./assets/dishes/dish_7.png" class="img-fluid ps-5" alt="One food image with price tag">
+                </div>
+                <div class="col-md-6 mt-5 ps-5">
+                    <h1 class="h1">Tasty dishes, swift delivery, compassionate care.</h1>
+                    <p class="mt-4">Indulge in our delectable dishes, freshly prepared and bursting with flavor.
+                        Experience
+                        the convenience of swift delivery, bringing gourmet meals straight to your door.</p>
+                </div>
+            </section>
+            <section class="row fifth-section pt-5 mt-5">
+                <div class="col-md-6">
+                    <h4>Let's Talk</h4>
+                    <h2>Want to Reserve a Table?</h2>
+                    <p class="my-4">Want to reserve a table? It's quick and easy with our online booking system. Secure
+                        your spot now for a delightful dining experience.</p>
+                    <button class="btn btn-dark">Contact Now</button>
+                </div>
+                <div class="col-md-6">
+                    <h1>App is Available</h1>
+                    <p class="my-3">Our app is available to download for instant access to all our services. Enjoy
+                        exclusive
+                        deals, seamless ordering, and real-time updates. Get it today and enhance your experience with
+                        just
+                        a tap.</p>
+                    <img src="./assets/icons/appstore.png" class="img-fluid playstore-icon" alt="Appstore icon">
+                    <img src="./assets/icons/google_play.png" class="img-fluid appstore-icon" alt="Playstore icon">
+                </div>
+            </section>
+
+            <section class="row sixth-section pt-4">
+                <hr>
+                <p class="w-75 mx-auto">Discover the culinary delights awaiting you at our restaurant through our
+                    website. Browse
+                    our diverse menu, reserve a table, and stay updated on special events and offers. Your perfect
+                    dining
+                    experience starts here!</p>
+            </section>
+        </main>
+
+        <!-- FOOTER SECTION -->
+        <footer class="row pt-5">
+            <div class="col-md-3">
+                <h2>Restaurant</h2>
+                <p>Get the world's best teast</p>
+            </div>
+            <div class="col-md-3">
+                <h2>Service</h2>
                 <div>
-                    <a href="./pages/login.html"
-                        class="px-2 text-secondary link-offset-2 link-underline link-underline-opacity-0">Login</a>
-                    <a href="./pages/signup.html"
-                        class="px-2 text-secondary link-offset-2 link-underline link-underline-opacity-0">Signup</a>
-                </div>
-                <span class="material-symbols-outlined ps-2 text-primary">
-                    shopping_cart
-                </span>
-            </div>
-        </nav>
-    </header>
-
-    <!-- MAIN CONTENT OF THE PAGE -->
-    <main>
-        <section class="d-flex first-section">
-            <div class="mt-4">
-                <h1 class="mt-4">Delicious Food is Wating for You</h1>
-                <a href="./pages/menu.html">
-                    <button class="btn btn-dark mt-5 rounded-start">View More &#x279E;</button>
-                </a>
-                <div class="mt-5">
-                    <span class="material-symbols-outlined me-2 h1 border rounded px-2 text-muted">
-                        lunch_dining
-                    </span>
-                    <span class="material-symbols-outlined me-2 h1 border rounded px-2 text-muted">
-                        sports_bar
-                    </span>
-                    <span class="material-symbols-outlined me-2 h1 border rounded px-2 text-muted">
-                        liquor
-                    </span>
-                    <span class="material-symbols-outlined me-2 h1 border rounded px-2 text-muted">
-                        restaurant
-                    </span>
-                    <span class="material-symbols-outlined me-2 h1 border rounded px-2 text-muted">
-                        local_cafe
-                    </span>
-
+                    <p>Pricing</p>
+                    <p>Home delivery</p>
+                    <p>Terms of Service</p>
+                    <p>Read our Bolg</p>
                 </div>
             </div>
-
-            <div>
-                <img src="./assets//dishes/dish_3.png" class="img-fluid hero-image" alt="Soupe image right side">
+            <div class="col-md-3">
+                <h2>Company</h2>
+                <p>Reporting</p>
+                <p>Get In Touch</p>
+                <p>Management</p>
+                <p>Refund policy</p>
             </div>
-        </section>
-
-        <section class="d-flex justify-content-between second-section">
-            <div class="d-flex">
-                <div class="food-item-1 item-cards text-center shadow p-3 mb-5 bg-body rounded me-4">
-                    <img src="./assets/dishes/dish_8.png" alt="Food image">
-                    <div class="d-flex flex-column">
-                        <h4>Burger Spicy </h4>
-                        <p>Spicy with Veggies</p>
-                        <p>$925.89</p>
-                        <div class="d-flex justify-content-evenly">
-                            <span class="material-symbols-outlined">
-                                shopping_cart
-                            </span>
-                            <span class="material-symbols-outlined">
-                                favorite
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="food-item-2 item-cards text-center shadow p-3 mb-5 bg-body rounded">
-                    <img src="./assets/dishes/dish_10.png" alt="Food image">
-                    <div class="d-flex flex-column">
-                        <h4>California-style Pizza</h4>
-                        <p>Non Spicy with Toppings</p>
-                        <p>$12.50</p>
-                        <div class="d-flex justify-content-evenly">
-                            <span class="material-symbols-outlined">
-                                shopping_cart
-                            </span>
-                            <span class="material-symbols-outlined">
-                                favorite
-                            </span>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-3">
+                <h2>Address</h2>
+                <p>12 King Rd.</p>
+                <p>Gangtok Sikkim</p>
+                <p>91 + 982 9890 425</p>
+                <p>info@birestruent.com</p>
             </div>
-
-            <div class="text-start ms-5">
-                <h2>We have Delicious Food</h2>
-                <h2>Teasty Food in Town</h2>
-                <p class="mt-4">In our town, culinary wonders abound, promising flavor-filled adventures at every turn.
-                    From quaint cafes to lively eateries, the air is alive with the scent of delectable creations. With
-                    "Delicious Food" and "Tasty Food" as our creed, every bite is a delightful journey of taste.</p>
-            </div>
-
-        </section>
-
-        <section class="d-flex mt-5 third-section">
-            <div class="mt-5">
-                <h1 class="h1">It takes only 25 minutes to deliver your food order</h1>
-                <p class="mt-4">Delicious Food is Waiting For you - It takes only 25 minutes to deliver your food order.
-                    Order now and satisfy your cravings in no time with our swift delivery service.</p>
-            </div>
-            <div>
-                <img src="./assets/dishes/dish_1.png" alt="One food image with price tag">
-            </div>
-        </section>
-
-        <section class="d-flex mt-5 fourth-section">
-            <div>
-                <img src="./assets/dishes/dish_7.png" class="ps-5" alt="One food image with price tag">
-            </div>
-            <div class="mt-5 ps-5">
-                <h1 class="h1">Tasty dishes, swift delivery, compassionate care.</h1>
-                <p class="mt-4">Indulge in our delectable dishes, freshly prepared and bursting with flavor. Experience
-                    the convenience of swift delivery, bringing gourmet meals straight to your door. </p>
-            </div>
-        </section>
-
-        <section class="fifth-section pt-5 mt-5 d-flex justify-content-between">
-            <div>
-                <h4>Let's Talk</h4>
-                <h2>Want to Reserve a Table?</h2>
-                <p class="w-50 my-4">Want to reserve a table? It's quick and easy with our online booking system. Secure
-                    your spot now for a delightful dining experience.</p>
-                <button class="btn btn-dark">Contact Now</button>
-            </div>
-
-            <div class="w-50">
-                <h1>App is Available</h1>
-                <p class="my-3">Our app is available to download for instant access to all our services. Enjoy exclusive
-                    deals, seamless ordering, and real-time updates. Get it today and enhance your experience with just
-                    a tap.</p>
-                <img src="./assets/icons/appstore.png" class="playstore-icon" alt="Appstore icon">
-                <img src="./assets/icons/google_play.png" class="appstore-icon" alt="Playstore icon">
-            </div>
-        </section>
-
-        <section class="sixth-section pt-4">
-            <hr>
-            <p class="w-75">Discover the culinary delights awaiting you at our restaurant through our website. Browse
-                our diverse menu, reserve a table, and stay updated on special events and offers. Your perfect dining
-                experience starts here!</p>
-        </section>
-
-    </main>
-
-    <!-- FOOTERSECTION -->
-    <footer class="d-flex justify-content-between pt-5">
-        <div>
-            <h2>Restaurant</h2>
-            <p>Get the world's best teast</p>
-        </div>
-
-        <div>
-            <h2>Service</h2>
-            <div>
-                <p>Pricing</p>
-                <p>Home delivery</p>
-                <p>Terms of Service</p>
-                <p>Read our Bolg</p>
-            </div>
-        </div>
-
-        <div>
-            <h2>Company</h2>
-            <p>Reporting</p>
-            <p>Get In Touch</p>
-            <p>Management</p>
-            <p>Refund policy</p>
-        </div>
-
-        <div>
-            <h2>Address</h2>
-            <p>12 King Rd.</p>
-            <p>Gangtok Sikkim</p>
-            <p>91 + 982 9890 425</p>
-            <p>info@birestruent.com</p>
-        </div>
-    </footer>
+        </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
