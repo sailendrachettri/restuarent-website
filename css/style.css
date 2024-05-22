@@ -22,19 +22,22 @@ a{
     font-family: var(--para-font);
 }
 
+.hover-btn:hover{
+    background-color: rgba(0, 0, 0, 0.24);
+    border: 1px solid inherit;
+    border-radius: 5px;
+}
+
 p{
     line-height: 2rem;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: var(--heading-font);
+.material-symbols-outlined{
+    cursor: pointer;
 }
 
-header a:hover{
-    background-color: rgba(0, 0, 0, 0.24);
-    border: 1px solid inherit;
-    border-radius: 5px;
-    padding: 5px;
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
 }
 
 

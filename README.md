@@ -10,8 +10,8 @@ A stati website to demonstrate the UI design of the restaurant website.
 - Javascript
 - Bootstrap
 
-## Backend
+### Backend
 - Php and MySQL
 
-## Utils
+### Utils
  - Google api for icons
