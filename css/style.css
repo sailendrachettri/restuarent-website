@@ -46,13 +46,20 @@ header a:hover{
     background-color: var(--bg-color-light) !important;
 }
 
-.second-section img {
+@media screen and (max-width: 1025px){
+    .second-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.food-item-1 img {
     width: auto;
     max-height: 200px;
 }
 
-.second-section .food-item-2 img{
-    max-height: 215px;
+.food-item-2 img{
+    max-height: 210px;
 }
 
 .third-section img {

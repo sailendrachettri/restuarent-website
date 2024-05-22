@@ -1,0 +1,5 @@
+// no need to move files 
+sudo php -S localhost:8080 <filename>
+
+
+help: https://stackoverflow.com/questions/16398684/submit-button-is-downloading-the-php-instead-of-running-it
