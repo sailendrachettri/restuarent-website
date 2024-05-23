@@ -12,20 +12,110 @@
 </head>
 
 <body>
+    <div class="container m-auto">
+        <!-- NAVIGATION BAR -->
+        <header>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">
+                        <h1 class="h1">Restaurant</h1>
+                        <p class="h5 text-muted">Get the world's best teast</p>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link hover-btn" href="./pages/login.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hover-btn" href="./pages/signup.html">Signup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><span
+                                        class="material-symbols-outlined text-primary">shopping_cart</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-    <main>
-        <section class="container d-flex justify-content-center align-items-center w-100 min-vh-100 my-4">
-            <form class="d-flex flex-column gap-3 w-auto border rounded p-4">
-                <input type="text" class="form-control" name="fullname" placeholder="full name">
-                <input type="email" class="email form-control" name="email" placeholder="email">
-                <input type="password" class="password form-control" name="password" placeholder="password">
-                <input type="password" class="password form-control" name="cpassword" placeholder="confirm password">
-                <input type="number" class="form-control" name="phone" placeholder="phone">
-                <p>Already have an account <a href="./login.html">Login</a> here</p>
-                <button type="submit" name="submit" class="btn btn-outline-dark">Signup</button>
-            </form>
-        </section>
-    </main>
+        <!--MAIN BODY OF THE PAGE  -->
+        <main>
+            <section class="container d-flex flex-column justify-content-center align-items-center w-100 my-4">
+                <h4 class="display-6 mb-4">Welcome User</h4>
+                <form class="d-flex flex-column gap-3 w-auto border rounded p-4">
+                    <input type="text" class="form-control" name="fullname" placeholder="full name">
+                    <input type="email" class="email form-control" name="email" placeholder="email">
+                    <input type="password" class="password form-control" name="password" placeholder="password">
+                    <input type="password" class="password form-control" name="cpassword"
+                        placeholder="confirm password">
+                    <input type="number" class="form-control" name="phone" placeholder="phone">
+                    <p>Already have an account <a href="./login.html">Login</a> here</p>
+                    <button type="submit" name="submit" class="btn btn-outline-dark">Signup</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- FOOTER SECTION -->
+        <footer class="row pt-5 my-4">
+            <div class="col-md-3">
+                <h2>Restaurant</h2>
+                <p class="text-muted">Get the world's best teast</p>
+            </div>
+            <div class="col-md-3">
+                <h2>Service</h2>
+                <div>
+                    <a href="#" class="text-muted text-decoration-none">
+                        <p>Pricing</p>
+                    </a>
+                    <a href="#" class="text-muted text-decoration-none">
+                        <p>Home delivery</p>
+                    </a>
+                    <a href="#" class="text-muted text-decoration-none">
+                        <p>Terms of Service</p>
+                    </a>
+                    <a href="#" class="text-muted text-decoration-none">
+                        <p>Read our Bolg</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h2>Company</h2>
+                <a href="#" class="text-muted text-decoration-none">
+                    <p>Reporting</p>
+                </a>
+                <a href="#" class="text-muted text-decoration-none">
+                    <p>Get In Touch</p>
+                </a>
+                <a href="#" class="text-muted text-decoration-none">
+                    <p>Management</p>
+                </a>
+                <a href="#" class="text-muted text-decoration-none">
+                    <p>Refund policy</p>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <h2>Address</h2>
+                <a href="#" class="text-muted text-decoration-none">
+                    <p>12 King Rd.</p>
+                </a>
+                <a href="#" class="text-muted text-decoration-none">
+                    <p>Gangtok Sikkim</p>
+                </a>
+                <a href="#" class="text-muted text-decoration-none">
+                    <p>+91 982 9890 425</p>
+                </a>
+                <a href="#" class="text-muted text-decoration-none">
+                    <p>info@birestruent.com</p>
+                </a>
+            </div>
+        </footer>
+
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
