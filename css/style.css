@@ -7,47 +7,53 @@
     box-sizing: border-box;
 }
 
-:root{
-    --bg-color-light: rgba(226, 241, 253, 0.651); 
+:root {
+    --bg-color-light: rgba(226, 241, 253, 0.651);
     --para-font: "Dosis", sans-serif;
     --heading-font: "Dosis", sans-serif;
     --logo-font: "Oswald", sans-serif;
 }
 
-body{
-    background-color:  var(--bg-color-light)!important;
+body {
     font-family: var(--para-font);
+    background: rgb(194,191,236);
+    background: linear-gradient(315deg, rgba(194,191,236,1) 0%, rgb(243, 240, 234) 22%, rgba(193,229,236,1) 100%);
 }
 
-.logo{
+.logo {
     font-family: var(--logo-font);
 }
 
-a{
+a {
     font-family: var(--para-font);
     text-decoration: none;
 }
 
-.hover-btn:hover{
+.hover-btn:hover {
     background-color: rgba(0, 0, 0, 0.24);
     border: 1px solid inherit;
     border-radius: 5px;
 }
 
-p{
+p {
     line-height: 2rem;
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
     cursor: pointer;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
 }
 
 
-.second-section  .item-cards{
+.second-section .item-cards {
     height: max-content;
     background-color: var(--bg-color-light) !important;
 }
@@ -62,7 +68,7 @@ h1, h2, h3, h4, h5, h6{
     height: 32px;
 }
 
-.card-width{
+.card-width {
     background-color: var(--bg-color-light) !important;
     width: fit-content !important;
 }
