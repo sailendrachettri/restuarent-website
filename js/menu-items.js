@@ -5,7 +5,7 @@ const products = [
         name: "Chicken Masala",
         description: "Creamy Chicken",
         price: "$14.99",
-        image: "../assets/menu/menu_dish_1.png"
+        image: "../assets/menu/menu_dish_5.png"
     },
     {
         name: "Margherita Pizza",
